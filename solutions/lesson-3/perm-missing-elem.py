@@ -1,4 +1,5 @@
 def solution(A):
+    '''Find the missing element in a given permutation.'''
     if not A:
         return 1
 

@@ -1,4 +1,5 @@
 def solution(X, Y, D):
+    '''Count minimal number of jumps from position X to Y.'''
     if X == Y:
         return 0
 

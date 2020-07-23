@@ -1,4 +1,5 @@
 def solution(A):
+    '''Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.'''
     if not A:
         return 0
 
